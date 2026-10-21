@@ -1,0 +1,8 @@
+{
+  "name": "course/practice-03",
+  "description": "Практическая работа 03: занятия, заявки и PSR-4",
+  "type": "project",
+  "license": "proprietary",
+  "require": { "php": ">=8.3 <8.6", "ext-mbstring": "*" },
+  "autoload": { "psr-4": { "App\\": "src/" } }
+}
