@@ -1,0 +1,25 @@
+{
+  "P04-CONNECTION": {
+    "file": "src/Infrastructure/Database.php",
+    "description": "Создать PDO для MySQL по конфигурации с тремя настройками."
+  },
+  "P04-COMPOSITION": {
+    "file": "bootstrap.php",
+    "description": "Создать контроллер с зависимостями и зарегистрировать пять маршрутов."
+  },
+  "P04-ROUTING": {
+    "file": "src/Http/Router.php",
+    "description": "Регистрировать и выбирать маршруты, передавать id, различать 404/405 и поддерживать HEAD."
+  },
+  "P04-RESPONSE": {
+    "files": [
+      "src/Http/Application.php",
+      "src/Http/Response.php"
+    ],
+    "description": "Добавить X-Request-Id и корректно отправлять ответы, включая HEAD."
+  },
+  "P04-SQL": {
+    "file": "src/Repository/PdoItemRepository.php",
+    "description": "Написать find(), matching() и create() подготовленными запросами."
+  }
+}
