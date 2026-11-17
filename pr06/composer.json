@@ -1,0 +1,19 @@
+{
+  "name": "course/practice-04",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.3 <8.6",
+    "ext-mbstring": "*",
+    "ext-pdo_mysql": "*",
+    "firebase/php-jwt": "7.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Course\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
